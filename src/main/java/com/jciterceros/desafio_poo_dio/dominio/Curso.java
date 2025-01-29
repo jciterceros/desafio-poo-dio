@@ -1,14 +1,12 @@
 package com.jciterceros.desafio_poo_dio.dominio;
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 
 @Getter
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
+@ToString
 public class Curso extends Conteudo {
 
     private int cargaHoraria;
